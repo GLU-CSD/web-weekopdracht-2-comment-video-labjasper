@@ -37,10 +37,6 @@ if(!empty($_POST)){
 
     <h1>Hieronder komen reacties</h1>
     <h2>Commentaar toevoegen</h2>
-        <?php
-        echo "<pre>".var_dump($grqry)."</pre>";
-        ?>
-    <form action="reactions.php">
         <div>
             naam: <input type="text" name="name-=" value="">
         </div>
@@ -51,7 +47,6 @@ if(!empty($_POST)){
             <textarea name="message" cost="30" rows="10"></textarea>
         </div>
         <input type="submit" value="Verzenden">
-    </form>
 </body>
 </html>
 
